@@ -68,19 +68,33 @@ body {
 
 .random {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: flex-start;
+    align-content: flex-start;
     height: 75vh;
     margin-top: 60px; 
     padding: 0 8vw;
 }
 
-.random-img img {
+.random > div{
+    margin-left: 80px;
+}
+
+.image{
+    height: 100%;
+}
+
+.random img {
     height: 30vh;
 }
 
-.random-content{
+.beer-can .content {
+    width: 90%;
+}
+
+.content, .extra-content {
     width: 50vw;
 }
 

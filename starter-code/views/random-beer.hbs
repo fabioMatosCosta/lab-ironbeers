@@ -1,11 +1,6 @@
 <div class = "random">
-    <div class = "random-img">
-        <img src={{image_url}} alt={{name}}>
-    </div>
-    <div class= "random-content">
-        <h3>{{name}}</h3>
-        <h6>{{tagline}}</h6>
-        <p>{{description}}</p>
+    {{> beerBottle}}
+    <div class = "extra-content">
         <p><b>Food Pairings</b></p>
         <ul>
             {{#each food_pairing}}
